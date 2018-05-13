@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --port 3000",
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --port 3000",
     "test": "node_modules/.bin/jest --watch"
   },
   "dependencies": {
@@ -25,6 +25,9 @@
     "babel-preset-react": "^6.24.1",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-jest": "^21.15.1",
+    "eslint-plugin-react": "^7.8.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^22.4.3",
     "react-hot-loader": "^4.1.3"
